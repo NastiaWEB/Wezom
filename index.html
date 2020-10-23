@@ -30,8 +30,8 @@
           <button type="button" name="call_me" class="btn main_btn call_me centred"><img src="img/phone.png" alt="phone"  class="btn_ico"/><span>Перезвонить мне</span></button>
         </div>
         <ul class="menu_icons centred">
-          <li><a href="#" class="menu_ico_box centred"><img src="img/weigher.png" alt="weigher" class="menu_ico">Сравнение</a></li>
-          <li><a href="#" class="menu_ico_box centred"><img src="img/star.png" alt="star" class="menu_ico star">Избранное</a></li>
+          <li><a href="#" class="menu_ico_box centred "><img src="img/weigher.png" alt="weigher" class="menu_ico">Сравнение</a></li>
+          <li><a href="#" class="menu_ico_box centred "><img src="img/star.png" alt="star" class="menu_ico star">Избранное</a></li>
           <li><a href="#" class="menu_ico_box centred"><img src="img/cart.png" alt="cart" class="menu_ico cart">Корзина</a></li>
         </ul>
       <div class="side_menu">
@@ -51,7 +51,11 @@
       </div>
       <div class="search_bar centred">
         <input type="search" id="site-search" class="text_input" name="search" placeholder="Поиск по сайту">
-        <button type="button" name="search_btn" class="btn main_btn centred">Поиск</button>
+        <select class="filter_select">
+          <option>Select 1</option>
+          <option>Select 2</option>
+        </select>
+        <button type="button" name="search_btn" class="btn main_btn centred search_btn">Поиск</button>
       </div>
       <div class="filter">
         <ul class="filter_nav centred bottom_line">
@@ -63,10 +67,6 @@
         </ul>
         <div class="filter_box centred">
           <div class="check_line"><input type="checkbox" name="filter_check"></div>
-          <select class="filter_select">
-            <option>Select 1</option>
-            <option>Select 2</option>
-          </select>
         </div>
       </div>
     </div>
@@ -114,11 +114,17 @@
         <span class="copyright_text">© Copyrith 2017. Тестовое задание Wezom</span>
         <div class="social">
           <a href="#" class="social_icon"><img src="img/i_vk.png"/></a>
-          <a href="#" class="social_icon"><img src="img/i_fb.png"/></a>
+          <a href="#" class="social_icon"><img class="fb_ico" src="img/i_fb.png"/></a>
           <a href="#" class="social_icon"><img src="img/i_twitter.png"/></a>
-          <a href="#" class="social_icon "><img src="img/i_youtube.png"/></a>
+          <a href="#" class="social_icon"><img src="img/i_youtube.png"/></a>
         </div>
-        <div class="copyright"></div>
+        <div class="copyright centred">
+          <img src="img/sm_logo.png" alt="logo" class="sm_logo">
+          <div>
+            <p>Разработка тестового</p>
+            <p class="copy_light_text">Wezom Agency</p>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
